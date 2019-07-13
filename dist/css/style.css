@@ -1,12 +1,15 @@
-body,html{
-    background: #36D7B7;
-    color: #ffffff;
-}
+
 
 :root {
-    --primary: #03A9F4;
-    --secondary: #29B6F6;
-    --terciary: #B2EBF2;
+    --primary: #264348;
+    --secondary: #33595f;
+    --terciary: #648f97;
+}
+
+body,
+html {
+    background-color: var(--secondary);
+    color: #ffffff;
 }
 
 nav {
@@ -50,5 +53,25 @@ nav .right .imgProfil a {
 
 .hidden {
     display: none;
+}
+
+
+.modal-container {
+    background-color: var(--primary);
+    border-radius: 0.5rem;
+}
+
+
+
+
+.black-foot {
+    background: #000 !important;
+    color: #ffffff !important;
+}
+
+
+
+.card, .blue-made {
+   background-color: var(--primary);
 }
 
