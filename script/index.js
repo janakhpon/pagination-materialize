@@ -9,3 +9,8 @@ $(".dropdown-trigger").dropdown({
   alignment: "left", // Displays dropdown with edge aligned to the left of button
   stopPropagation: false // Stops event propagation
 });
+
+$(document).ready(function() {
+  $(".fixed-action-btn").floatingActionButton();
+  $(".modal").modal();
+});
